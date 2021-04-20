@@ -1,7 +1,9 @@
 /// <reference types="cypress" />
 
 // Páginas que vão ser efetuado os testes
-const url ='http://www.google.com.br'
+
+
+const url =''
 
     
-export default new url()
+export default url()
