@@ -1,13 +1,15 @@
 
 /// <reference types="cypress" />
 
+import url from "../../fixtures/env.json"
+
 describe('Funcionalidade: Teste na API de Pokemons', () => {
     
     it('Deve listar os pokemons da api = GET em pokemons', () => {
         
         cy.request({
             method: 'GET',
-            url: 'https://pokeapi.co/api/v2/pokemon/ditto'
+            url: url.urlPrd+'/pokemon/ditto'
         }).should((response) => {
             //cy.log(response.body.usuarios)
             cy.log(response)
