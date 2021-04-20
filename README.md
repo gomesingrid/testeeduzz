@@ -1,3 +1,11 @@
+## Projeto automação E2E de busca e Api
+Funcionalidade Busca
+Descrição: Busca utilizando o Custom Commands que é o padrão do Cypress. ✓ Deve validar o texto do site eduzz encontrado na busca.
+
+Arquivo de urls 
+Descrição: Criado o arquivo env.js para colocar as urls dos ambientes.
+
+
 ## Clonando e executando em sua máquina
 
 ### Pré-requisito:
@@ -13,26 +21,28 @@
 Via terminal, rode os seguintes comandos:
   
 git clone https://github.com/gomesingrid/testeeduzz.git
-
+```
 cd testeeduzz
+```
 
 #### Para instalar as dependencias:
-
+```
 npm install 
-
+```
 
 #### Para executar em moodo Headlesss via console:
-
+```
 npx cypress run
-
+```
 
 #### Para executar via Dashboard:
-
+```
 npx cypress open 
-
+```
 Após abrir o dasboard, clique na opção "Running integration tests" para rodar todos os testes.
 
 ### Gerando relatórios:
+```
 npm run cy:report  
-
+```
 Deve criar um arquivo "cypress/mochawesome-report/report.html. Basta abrir o arquivo com seu navegador preferido.
