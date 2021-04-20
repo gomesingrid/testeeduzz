@@ -1,0 +1,23 @@
+{
+  "name": "testeeduzz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gomesingrid/testeeduzz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gomesingrid/testeeduzz/issues"
+  },
+  "homepage": "https://github.com/gomesingrid/testeeduzz#readme",
+  "dependencies": {
+    "cypress": "^7.0.1"
+  }
+}
